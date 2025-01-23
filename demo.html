@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="icon" href="icons.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <img src="Healthcare.jpg" alt="Welcome Illustration">
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="form-container">
+              <div class="avatar">
+                <img id="user" src="icons8-user-16.png" alt="Avatar">
+              </div>
+          
+              <h1 class="title" >Log In</h1>
+              <div class="line">
+              </div>
+               
+                <form id="login-form">
+                    <div class="input-group">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email Address" class="email-input">
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="Password" class="password-input" >
+                        <img id="hide" src="hide.png" alt="Toggle Password">
+                    </div>
+                    <div class="error-message" id="error-message"></div>
+                    <div class="extra-options">
+                        <label><input type="checkbox"> Remember Me</label>
+                        <a href="nextpage.html">Forgot Password?</a>
+                    </div>
+                    <button type="button" class="loginbtn">Login Now</button>
+                    
+                </form>
+                <p>Or LogIn with</p>
+                <div class="social-icons"><a href="nextpage.html">
+                  <svg width="20px" height="30px" viewBox="-3 0 262 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                      <g>
+                        <path d="M255.878,133.451 C255.878,122.717 255.007,114.884 253.122,106.761 L130.55,106.761 L130.55,155.209 L202.497,155.209 C201.047,167.249 193.214,185.381 175.807,197.565 L175.563,199.187 L214.318,229.21 L217.003,229.478 C241.662,206.704 255.878,173.196 255.878,133.451" fill="#4285F4">
+                    
+                    </path>
+                        <path d="M130.55,261.1 C165.798,261.1 195.389,249.495 217.003,229.478 L175.807,197.565 C164.783,205.253 149.987,210.62 130.55,210.62 C96.027,210.62 66.726,187.847 56.281,156.37 L54.75,156.5 L14.452,187.687 L13.925,189.152 C35.393,231.798 79.49,261.1 130.55,261.1" fill="#34A853">
+                    
+                    </path>
+                        <path d="M56.281,156.37 C53.525,148.247 51.93,139.543 51.93,130.55 C51.93,121.556 53.525,112.853 56.136,104.73 L56.063,103 L15.26,71.312 L13.925,71.947 C5.077,89.644 0,109.517 0,130.55 C0,151.583 5.077,171.455 13.925,189.152 L56.281,156.37" fill="#FBBC05">
+                    
+                    </path>
+                        <path d="M130.55,50.479 C155.064,50.479 171.6,61.068 181.029,69.917 L217.873,33.943 C195.245,12.91 165.798,0 130.55,0 C79.49,0 35.393,29.301 13.925,71.947 L56.136,104.73 C66.726,73.253 96.027,50.479 130.55,50.479" fill="#EB4335">
+                    
+                    </path>
+                      </g>
+                    </svg></a>
+                    <a href="nextpage.html">
+                   <svg width="30px" height="40px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="24" cy="24" r="20" fill="#3B5998"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M29.315 16.9578C28.6917 16.8331 27.8498 16.74 27.3204 16.74C25.8867 16.74 25.7936 17.3633 25.7936 18.3607V20.1361H29.3774L29.065 23.8137H25.7936V35H21.3063V23.8137H19V20.1361H21.3063V17.8613C21.3063 14.7453 22.7708 13 26.4477 13C27.7252 13 28.6602 13.187 29.8753 13.4363L29.315 16.9578Z" fill="white"/>
+                    </svg></a>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
